@@ -1,0 +1,72 @@
+.first-about-comp {
+    padding: 0px 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 249, 250);
+}
+
+.first-about-comp .card1 {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.first-about-comp .info1 {
+    padding-top: 25px;
+}
+
+.first-about-comp .list-group-flush .carditem i {
+    color: #5452ee;
+    margin-right: 15px;
+}
+
+.first-about-comp .list-group-flush .carditem {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.first-about-comp .cardimg1 {
+    width: 50%;
+}
+
+.first-about-comp .cardbody1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.first-about-comp .cardtitle1 {
+    color: #5452ee;
+    margin-bottom: 0px;
+    padding: 0px 0px 15px;
+}
+
+.first-about-comp .cardtext1 {
+    font-size: 14px;
+}
+
+.first-about-comp .btn {
+    all: unset;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #5452ee;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .first-about-comp .cardimg1 {
+        display: none;
+    }
+}

@@ -1,0 +1,62 @@
+div.browse-cat {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+div.browse-cat h3 {
+    color: #5452ee;
+    padding: 0px 0px 25px;
+}
+
+div.browse-cat .browse-card {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #eff5f8;
+    margin-bottom: 25px;
+}
+
+div.browse-cat .browse-card i {
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 20px;
+    color: #5452ee;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.browse-cat .browse-card .browse-title {
+    color: rgb(100, 92, 92);
+    font-size: 18px;
+}
+
+div.browse-cat .browse-card .browse-text {
+    font-size: 14px;
+    color: rgb(177, 175, 175);
+}
+
+div.browse-cat .browse-body {
+    padding-left: 0px;
+}
+
+div.browse-cat a {
+    text-decoration: none;
+}
+
+@media (max-width: 1120px) {
+    div.browse-cat .browse-card {
+        flex-direction: column;
+    }
+    div.browse-cat .browse-card i {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    div.browse-cat .browse-body {
+        padding: 15px 0px;
+    }
+}

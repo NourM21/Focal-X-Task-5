@@ -1,0 +1,63 @@
+.second-about-comp {
+    padding: 0px 80px;
+    background-color: rgb(247, 249, 250);
+}
+
+.second-about-comp .about-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.second-about-comp .about-head h3 {
+    color: #5452ee;
+    margin-bottom: 0px;
+    padding: 0px 0px 15px;
+}
+
+.second-about-comp .about-head p {
+    font-size: 14px;
+}
+
+.second-about-comp .card5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.second-about-comp .card5 .career1{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(156, 153, 153);
+}
+
+.second-about-comp .cardimg5 {
+    width: 40%;
+    height: 40%;
+    border-radius: 30px;
+}
+
+.second-about-comp .cardbody5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-about-comp .cardtitle5 {
+    color: #5452ee;
+    font-size: 14px;
+    text-align: center;
+}
+
+.second-about-comp .cardtext5 {
+    font-size: 14px;
+    margin: 0px 10px 20px;
+}
+
+.second-about-comp .iconss i{
+    margin-right: 20px;
+    color: #5452ee;
+}

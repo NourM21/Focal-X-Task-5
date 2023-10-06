@@ -1,0 +1,36 @@
+div.footer-contact {
+    width: 50%;
+}
+
+div.footer-contact h3 {
+    font-weight: 600;
+    padding: 0px 0px 10px;
+    margin: 0px;
+}
+
+div.footer-contact p {
+    margin-top: 0px;
+    text-align: left;
+    margin: 20px 0px;
+    color: white;
+}
+
+div.footer-contact ul {
+    list-style: none;
+    color: rgb(194, 193, 193);
+    padding: 0px;
+    margin: 0px;
+}
+
+div.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    div.footer-contact {
+        margin-top: 15px;
+    }
+    div.footer-contact p {
+        text-align: center;
+    }
+}

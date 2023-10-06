@@ -1,0 +1,11 @@
+div.footer-about h3 {
+    font-weight: 600;
+    padding: 0px 0px 10px;
+    margin: 0px;
+}
+
+div.footer-about p {
+    text-align: left;
+    margin: 20px 0px;
+    color: white;
+}

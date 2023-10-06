@@ -1,0 +1,31 @@
+div.footer-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+div.footer-gallery h3 {
+    font-weight: 600;
+    padding: 0px 0px 10px;
+    margin: 0px;
+}
+
+div.footer-gallery div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 20px 0px 0px;
+}
+
+div.footer-gallery .div1 {
+    margin-top: 5px;
+}
+
+div.footer-gallery div img {
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    div.footer-gallery {
+        display: none;
+    }
+}

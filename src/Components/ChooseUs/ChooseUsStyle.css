@@ -1,0 +1,30 @@
+div.choose-us {
+    padding: 0px 80px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+    margin: 50px 0px;
+}
+
+div.choose-us .choose-info .choose-title h3 {
+    color: #5452ee;
+    margin-bottom: 0px;
+    padding: 0px 0px 15px;
+}
+
+div.choose-us .choose-info .choose-title p {
+    font-size: 14px;
+}
+
+div.choose-us .accBody {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+@media (max-width: 991px) {
+    div.choose-us .mainImage {
+        display: none;
+    }
+}

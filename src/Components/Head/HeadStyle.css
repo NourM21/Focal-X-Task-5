@@ -1,0 +1,84 @@
+div.head-1 {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px 90px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+    margin: 0px !important;
+    background-image: linear-gradient(120deg, #5452ee, #5452ee);
+}
+
+div.head-1 .info {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 20px !important;
+}
+
+div.head-1 .info .info1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+div.head-1 .info .info1 i {
+    color: white;
+    margin-right: -12px;
+    align-items: center;
+}
+
+div.head-1 .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+div.head-1 .btns .btns1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+div.head-1 .btns .btns1 i {
+    color: white;
+    margin-right: -12px;
+    align-items: center;
+}
+
+div.head-1 .info p.para {
+    color: white;
+    align-items: center;
+    margin: 0px;
+}
+
+div.head-1 .btns button.btn {
+    all: unset;
+    color: white;
+}
+
+@media (max-width: 780px) {
+    div.head-1 {
+        flex-direction: column;
+    }
+    div.head-1 .info {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 620px) {
+    div.head-1 .info {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    div.head-1 .info i {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    div.head-1 .btns {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,45 @@
+div.best-edu {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+div.best-edu .edu-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.best-edu .edu-head h3 {
+    color: #5452ee;
+    margin-bottom: 0px;
+    padding: 0px 0px 15px;
+}
+
+div.best-edu .edu-head p {
+    font-size: 14px;
+}
+
+div.best-edu .edu-card {
+    text-align: center;
+    border-color: rgb(228, 230, 231);
+    border-radius: 5px;
+}
+
+div.best-edu .edu-card i {
+    font-size: 24px;
+    padding: 15px;
+    color: #5452ee;
+}
+
+div.best-edu .edu-card .edu-title {
+    color: #5452ee;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+div.best-edu .edu-card .edu-text {
+    font-size: 14px;
+    color: rgb(177, 175, 175);
+}

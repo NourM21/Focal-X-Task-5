@@ -1,0 +1,58 @@
+.news-comp {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 249, 250);
+}
+
+.news-comp .card {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 0.1);
+    margin-bottom: 20px;
+}
+
+.news-comp .cardimg {
+    width: 100%;
+}
+
+.news-comp .cardbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-comp .cardtitle {
+    color: #5452ee;
+    margin-bottom: 0px;
+    padding: 0px 0px 15px;
+}
+
+.news-comp .cardtext {
+    font-size: 14px;
+}
+
+.news-comp .time {
+    display: flex;
+    gap: 10px;
+}
+
+.news-comp .time p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(189, 184, 184);
+    display: flex;
+    align-items: center;
+}
+
+.news-comp .time i {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.news-comp .pagination {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
